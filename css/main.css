@@ -218,30 +218,33 @@ div.scrollup {
 div.scrollup:hover {
     background-color: #000; /* цвет заднего фона при наведении */
 }
-/**/
+/*footer css++*/
 #footer{
-    height: 20vh;
+    height: 170px;
     width: 100%;
-    margin-top: 0px;
     background-color: #3a3f46;
+    margin-top: -15px;
 }
-#footer .elements_footer{
-    margin-right: 900px;
-    color: #fdfdfe ;
-    font-weight: bold;
-}
-#footer .elements_footer .address{
-    margin-left: 30px;
-}
-#footer .elements_footer .follow{
-    margin-left: 30px;
-}
-#footer .elements_footer .about_us{
-    margin-left: 30px;
-}
+
 #footer .type-1{
-    margin-top: -100px;
+    margin-top: -130px;
+    margin-left: 5px;
 }
+#footer .logo_footer{
+    margin-top: 40px;
+    margin-right: 100px;
+}
+#footer .footer-links{
+    margin-top: -104px;
+    margin-left: 220px;
+    font-family: 'Roboto', sans-serif;
+}
+#footer .copyright{
+    margin-top: 25px;
+    color: #ffffff;
+    margin-left: 640px;
+}
+
 
 /*css for video*/
 #home .video-bg {
